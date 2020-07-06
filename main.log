@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  5 JUL 2020 17:04
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  6 JUL 2020 20:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,70 +749,76 @@ Package fontspec Info: Font family 'KaitiSC(0)' created for font 'Kaiti SC'
 (fontspec)             SC/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-(./Part1Choice.tex
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 1.
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 1.
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(2)/m/n' will be
-(Font)              scaled to size 5.50058pt on input line 1.
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 1.
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 1.
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(3)/m/n' will be
-(Font)              scaled to size 5.4994pt on input line 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+(./Part1Choice.tex (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
+Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ∘ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
+Missing character: There is no ━ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 
 LaTeX Font Warning: Font shape `TU/STIX2Text-Regular.otf(0)/m/sl' undefined
-(Font)              using `TU/STIX2Text-Regular.otf(0)/m/n' instead on input line 49.
+(Font)              using `TU/STIX2Text-Regular.otf(0)/m/n' instead on input line 34.
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-Missing character: There is no ． in font [STIX2Math.otf]/OT:script=math;language=dflt;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
@@ -823,30 +829,29 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 22.
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 22.
 
-[2]
 
 LaTeX Font Warning: Font shape `TU/STIX2Text-Regular.otf(1)/b/n' undefined
 (Font)              using `TU/STIX2Text-Regular.otf(1)/m/n' instead on input line 36.
 
-) (./Part3Answer.tex
+) (./Part3Answer.tex [3]
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 12.
 
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 12.
 
-) [3] (./main.aux)
+) [4] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14860 strings out of 479418
- 311860 string characters out of 5884586
+ 14864 strings out of 479418
+ 312704 string characters out of 5884586
  876186 words of memory out of 5000000
- 32145 multiletter control sequences out of 15000+600000
- 535833 words of font info for 86 fonts, out of 8000000 for 9000
+ 32154 multiletter control sequences out of 15000+600000
+ 535793 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,12n,116p,853b,643s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,116p,853b,658s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (3 pages).
+Output written on main.pdf (4 pages).
