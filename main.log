@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  6 JUL 2020 20:09
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  6 JUL 2020 20:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,76 +749,98 @@ Package fontspec Info: Font family 'KaitiSC(0)' created for font 'Kaiti SC'
 (fontspec)             SC/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-(./Part1Choice.tex (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+(./Part1Choice.tex
+File: img/image1.jpeg Graphic file (type bmp)
+<img/image1.jpeg>
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
 Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ∘ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-Missing character: There is no ━ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
-
- []
-
+File: img/image3.jpeg Graphic file (type bmp)
+<img/image3.jpeg>
 
 LaTeX Font Warning: Font shape `TU/STIX2Text-Regular.otf(0)/m/sl' undefined
-(Font)              using `TU/STIX2Text-Regular.otf(0)/m/n' instead on input line 34.
+(Font)              using `TU/STIX2Text-Regular.otf(0)/m/n' instead on input line 24.
 
 [1
 
 ]
-Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ━ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+File: img/image4.jpeg Graphic file (type bmp)
+<img/image4.jpeg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
+File: img/image6.jpeg Graphic file (type bmp)
+<img/image6.jpeg>
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
+File: img/image7.jpeg Graphic file (type bmp)
+<img/image7.jpeg>
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
+File: img/image9.jpeg Graphic file (type bmp)
+<img/image9.jpeg>
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+File: img/image11.jpeg Graphic file (type bmp)
+<img/image11.jpeg>
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+File: img/image12.jpeg Graphic file (type bmp)
+<img/image12.jpeg>
+
+Overfull \hbox (16.77136pt too wide) in paragraph at lines 119--120
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
@@ -833,25 +855,27 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 22.
 LaTeX Font Warning: Font shape `TU/STIX2Text-Regular.otf(1)/b/n' undefined
 (Font)              using `TU/STIX2Text-Regular.otf(1)/m/n' instead on input line 36.
 
-) (./Part3Answer.tex [3]
+[4]) (./Part3Answer.tex
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 12.
 
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 12.
 
-) [4] (./main.aux)
+File: img/image1.jpeg Graphic file (type bmp)
+<img/image1.jpeg>
+) [5] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14864 strings out of 479418
- 312704 string characters out of 5884586
- 876186 words of memory out of 5000000
- 32154 multiletter control sequences out of 15000+600000
+ 14915 strings out of 479418
+ 313496 string characters out of 5884586
+ 874186 words of memory out of 5000000
+ 32194 multiletter control sequences out of 15000+600000
  535793 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,12n,116p,853b,658s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,11n,116p,853b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (4 pages).
+Output written on main.pdf (5 pages).

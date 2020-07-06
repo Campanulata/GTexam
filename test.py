@@ -5,10 +5,20 @@ from docx.enum.text import WD_LINE_SPACING
 from docx.shared import Pt
 from docx.shared import RGBColor
 from docx.shared import Inches
+import re
 
 
 document = docx.Document('/Users/tylor/Desktop/1.docx') 
 par = document.paragraphs
+# 导出图片到img文件夹
+for rel in document.part._rels:
+    rel = document.part._rels[rel]               #获得资源
+    if "image" not in rel.target_ref:
+        continue
+    imgName = re.findall("/(.*)",rel.target_ref)[0]
+    with open('img' + "/" + imgName,"wb") as f:
+        f.write(rel.target_part.blob)
+# 替换空行，此方法库中没实现
 for i in range(len(par)):
     if par[i].text.find("百校翻联监")>=0:
         par[i].clear()
@@ -17,13 +27,12 @@ for k in range(111):
         if par[i].text=='':
             for j in range(i,len(par)-1):
                 par[j]=par[j+1]
-
-
+# 手动配置信息
+listWithImg=[1,3,4,6,7,9,11,12]
 maxNum = 18
 choiceNum = 12
 listQuestion = [0]
 listABCD = [0]
-
 dictABCD = {'A': '', 'B': '', 'C': '','D':''}
 for item in ['A','B','C','D']:
     dictABCD[item]=item+' .'
@@ -54,6 +63,9 @@ for i in range(1, choiceNum + 1):  # 生成选择题
     choice1 = r'\question[6] '
     for j in range(listQuestion[i], listABCD[i]):
         choice1 += par[j].text.lstrip()
+    if i in listWithImg:
+        choice1+='\n'+r'\begin{center}'+'\n'+r'\includegraphics[]{img/image'+str(listWithImg[0])+r'.jpeg}'+'\n'+r'\end{center}'+'\n'
+        listWithImg.remove(i)
     # 选项
     choice2 = ''  
     choiceA = listABCD[i]
