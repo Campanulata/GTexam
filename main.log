@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  9 JUL 2020 17:19
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  9 JUL 2020 18:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -718,7 +718,17 @@ LaTeX Font Warning: Font shape `TU/STIX2Text-Regular.otf(0)/b/n' undefined
 (Font)              using `TU/STIX2Text-Regular.otf(0)/m/n' instead on input line 9.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--15
+Overfull \hbox (13.74197pt too wide) in paragraph at lines 9--14
+[]
+ []
+
+
+Overfull \hbox (3.20865pt too wide) in paragraph at lines 9--14
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
 
  []
 
@@ -763,24 +773,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
  []
 
 Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-File: img/image3.jpeg Graphic file (type bmp)
-<img/image3.jpeg>
 
-LaTeX Font Warning: Font shape `TU/STIX2Text-Regular.otf(0)/m/sl' undefined
-(Font)              using `TU/STIX2Text-Regular.otf(0)/m/n' instead on input line 24.
-
-[1
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
 Missing character: There is no ━ in font [STIX2Math.otf]/OT:script=math;language=dflt;!
 File: img/image4.jpeg Graphic file (type bmp)
 <img/image4.jpeg>
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+LaTeX Font Warning: Font shape `TU/STIX2Text-Regular.otf(0)/m/sl' undefined
+(Font)              using `TU/STIX2Text-Regular.otf(0)/m/n' instead on input line 34.
+
+
+Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
+Make it at least 60.1836pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[1
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
@@ -789,15 +805,15 @@ Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=lat
 Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
 File: img/image6.jpeg Graphic file (type bmp)
 <img/image6.jpeg>
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
@@ -815,82 +831,83 @@ Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=lat
 Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
 Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
 File: img/image9.jpeg Graphic file (type bmp)
 <img/image9.jpeg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
 File: img/image11.jpeg Graphic file (type bmp)
 <img/image11.jpeg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
 File: img/image12.jpeg Graphic file (type bmp)
 <img/image12.jpeg>
 
-Overfull \hbox (16.77136pt too wide) in paragraph at lines 119--120
+Overfull \hbox (16.77136pt too wide) in paragraph at lines 117--118
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-) (./Part2UnChoice.tex [4]
+) (./Part2UnChoice.tex
 File: img/image13.jpeg Graphic file (type bmp)
 <img/image13.jpeg>
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
+ [4]
 Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
 Missing character: There is no ⅳ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no Ⅱ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ￥ in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
  [5]
-Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
-Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
-
-
-LaTeX Warning: File `img/image18.jpeg' not found on input line 29.
-
-./Part2UnChoice.tex:29: Unable to load picture or PDF file 'img/image18.jpeg'.
-<to be read again> 
-                   }
-l.29 \includegraphics[]{img/image18.jpeg}
-                                         
-The requested image couldn't be read because
-it was not a recognized image format.
-
-File: img/image18.jpeg Graphic file (type bmp)
-<img/image18.jpeg>
-) [6] (./main.aux)
+File: img/image17.jpeg Graphic file (type bmp)
+<img/image17.jpeg>
+)
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
+ [6] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14941 strings out of 479418
- 312420 string characters out of 5884586
- 875186 words of memory out of 5000000
- 32198 multiletter control sequences out of 15000+600000
+ 14900 strings out of 479418
+ 312418 string characters out of 5884586
+ 877186 words of memory out of 5000000
+ 32182 multiletter control sequences out of 15000+600000
  535769 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,11n,116p,853b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,116p,853b,677s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on main.pdf (6 pages).

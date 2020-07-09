@@ -161,7 +161,7 @@ unChoiceAll=unChoiceAll.replace(r'$$','')
 choiceAll=choiceAll.replace(' ','')
 unChoiceAll=unChoiceAll.replace(' ','')
 unChoiceAll=unChoiceAll.replace(r'\question[6]',r'\question[6] ')
-# with open("Part1Choice.tex", "w") as f:
-#     f.write(choiceAll)
+with open("Part1Choice.tex", "w") as f:
+    f.write(choiceAll)
 with open("Part2UnChoice.tex", "w") as f:
     f.write(unChoiceAll)
