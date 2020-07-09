@@ -19,6 +19,8 @@ def latex(allStr):
     for j in range(len(result)):
         if len(result[j])<3:
             result[j]='dsadasdas'
+        if '\n' in result[j]:
+            result[j]='dsadasdas'
     for j in ['(1)','(2)']:#移除不需要加$的字符
         if j in result:
             result.remove(j)
@@ -135,6 +137,7 @@ for i in range(choiceNum + 1, maxNum + 1):  # 生成选择题
     for j in range(listQuestion[i], listQuestion[i+1]):
         choice1 += par[j].text.lstrip()
     # sub
+    choice1=choice1.replace(' ','')
     dictSub={'1':'','2':'','3':'','4':''}
     for j in dictSub:
         dictSub[j]='('+j+')'
@@ -158,7 +161,7 @@ unChoiceAll=unChoiceAll.replace(r'$$','')
 choiceAll=choiceAll.replace(' ','')
 unChoiceAll=unChoiceAll.replace(' ','')
 unChoiceAll=unChoiceAll.replace(r'\question[6]',r'\question[6] ')
-with open("Part1Choice.tex", "w") as f:
-    f.write(choiceAll)
+# with open("Part1Choice.tex", "w") as f:
+#     f.write(choiceAll)
 with open("Part2UnChoice.tex", "w") as f:
     f.write(unChoiceAll)
