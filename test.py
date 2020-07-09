@@ -20,13 +20,17 @@ for rel in document.part._rels:
         f.write(rel.target_part.blob)
 # 替换空行，此方法库中没实现
 for i in range(len(par)):
-    if par[i].text.find("百校翻联监")>=0:
+    if par[i].text.find("百校翻联监")>=0 or par[i].text.find("注意事项")>=0:
         par[i].clear()
-for k in range(111):
-    for i in range(len(par)):
-        if par[i].text=='':
-            for j in range(i,len(par)-1):
-                par[j]=par[j+1]
+for i in range(len(par)):
+    if par[i].text=='' and i<len(par)-1:#第par[i]是空的
+        t=i
+        k=i
+        while par[k].text=='':
+            k+=1
+        diff=k-t
+        for j in range(t,len(par)-1-diff):
+            par[j]=par[j+diff]
 # 手动配置信息
 listWithImg=[1,3,4,6,7,9,11,12]
 maxNum = 18

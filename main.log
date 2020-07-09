@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  9 JUL 2020 11:38
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  9 JUL 2020 12:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -785,6 +785,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
+Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ⋮ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
 File: img/image6.jpeg Graphic file (type bmp)
 <img/image6.jpeg>
 Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
@@ -796,9 +809,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
+[2]
 File: img/image7.jpeg Graphic file (type bmp)
 <img/image7.jpeg>
-[2]
 Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 Missing character: There is no ● in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
@@ -844,7 +857,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-) (./Part2Blank.tex
+) (./Part2Blank.tex [4]
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 22.
 
@@ -855,7 +868,7 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 22.
 LaTeX Font Warning: Font shape `TU/STIX2Text-Regular.otf(1)/b/n' undefined
 (Font)              using `TU/STIX2Text-Regular.otf(1)/m/n' instead on input line 36.
 
-[4]) (./Part3Answer.tex
+) (./Part3Answer.tex
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 12.
 
@@ -864,18 +877,21 @@ LaTeX Font Warning: Command \small invalid in math mode on input line 12.
 
 File: img/image1.jpeg Graphic file (type bmp)
 <img/image1.jpeg>
-) [5] (./main.aux)
+[5]) [6] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
  14915 strings out of 479418
  313496 string characters out of 5884586
- 874186 words of memory out of 5000000
+ 876186 words of memory out of 5000000
  32194 multiletter control sequences out of 15000+600000
  535793 words of font info for 81 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,11n,116p,853b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (5 pages).
+Output written on main.pdf (6 pages).
