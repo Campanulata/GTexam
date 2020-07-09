@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  9 JUL 2020 12:15
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  9 JUL 2020 16:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -857,40 +857,469 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-) (./Part2Blank.tex [4]
+) (./Part2UnChoice.tex [4]
+File: img/image13.jpeg Graphic file (type bmp)
+<img/image13.jpeg>
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 22.
+./Part2UnChoice.tex:12: Undefined control sequence.
+l.12 ...\prime\prime},m-\frac{1}{t}m-t^{2},\cdotsm
+                                                  -\frac{1}{t^{2}}y$图象.当图象为过...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+./Part2UnChoice.tex:13: Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...A.B.C$三点,最终停止在D点$.A、B$之间的距离为$s…B.C$之间的距离为_
+                                                  号$\frac{2}{3}s_{0}$物体通过$AB...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no 号 in font [STIX2Math.otf]/OT:script=math;language=dflt;+ssty=0;!
+Missing character: There is no 号 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+./Part2UnChoice.tex:13: Missing $ inserted.
+<inserted text> 
+                $
+l.13 ...在D点$.A、B$之间的距离为$s…B.C$之间的距离为_号$\frac{2}{3}
+                                                  s_{0}$物体通过$AB$与$BC$两段距离所用时...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Part2UnChoice.tex:13: Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
+                                                 
+l.13 ...在D点$.A、B$之间的距离为$s…B.C$之间的距离为_号$\frac{2}{3}
+                                                  s_{0}$物体通过$AB$与$BC$两段距离所用时...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Missing character: There is no ⅳ in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+./Part2UnChoice.tex:16: Missing $ inserted.
+<inserted text> 
+                $
+l.16 ...3kα$的物块B放在长木板上左端.地面上离长的$=,_=$原图的二一下下面平下列的^
+                                                  新出Ⅱ两气出A是得重是重的的=体图关色是不W的数用图...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no 新 in font [STIX2Math.otf]/OT:script=math;language=dflt;+ssty=0;!
+Missing character: There is no 新 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 出 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no Ⅱ in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 两 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 气 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 出 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 是 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 得 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 重 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 是 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 重 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 体 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 图 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 关 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 色 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 是 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 不 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 数 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 用 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 图 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 新 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 此 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 正 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 要 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 用 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 假 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 物 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 对 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 脱 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 离 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 个 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 假 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 已 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 知 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 四 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 物 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 块 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 与 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 长 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 木 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 板 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 间 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 动 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 摩 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 擦 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 因 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 数 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 均 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 为 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 𝜇 in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+./Part2UnChoice.tex:16: Missing $ inserted.
+<inserted text> 
+                $
+l.16 ...不W的数用图新此正要用假的物对脱离个假已知四物块与长木板间的动摩擦因数均为$\mu_
+                                                  1=0.5,$长木板与地面间的动摩擦因数为$\mu_...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Part2UnChoice.tex:16: Double subscript.
+l.16 ...10m/s^∘,$最大静摩擦力等于滑动摩擦力,不计物块大小,求拉力F的大小$._e_
+                                                  v─r.∥$
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+Missing character: There is no ￥ in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+[5]
+Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+
+./Part2UnChoice.tex:19: Double subscript.
+l.19 ...为$0.5kg$的物体由静止从A处拉到B处.所用时间为$1s,$第$"m"g×_"_
+                                                  0ⅲ$在段时间二场上$A+,$物是实验到B从$_"$...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+Missing character: There is no ⅲ in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+./Part2UnChoice.tex:19: Missing $ inserted.
+<inserted text> 
+                $
+l.19 ...s,$第$"m"g×_"_0ⅲ$在段时间二场上$A+,$物是实验到B从$_"$时上_
+                                                  重石眼至不分物体运动到B处时速度刚好减为零.已知$s...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no 重 in font [STIX2Math.otf]/OT:script=math;language=dflt;+ssty=0;!
+Missing character: There is no 重 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 石 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 眼 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 至 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 不 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 分 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 物 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 体 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 运 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 动 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 到 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 处 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 时 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 速 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 度 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 刚 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 好 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 减 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 为 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 零 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 已 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 知 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 不 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 计 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 物 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 体 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 大 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 小 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 重 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 力 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 区 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 段 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 器 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 二 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 常 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 有 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 因 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 数 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 物 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 体 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 与 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 斜 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 面 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 间 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 动 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 摩 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 擦 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 因 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 数 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 物 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 体 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 第 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 二 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 次 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 从 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 运 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 动 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 到 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 过 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 程 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 水 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 平 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 力 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 作 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 用 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 时 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 间 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 结 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 果 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 可 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 保 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 留 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 根 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 式 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 百 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 以 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 固 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 获 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 生 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 届 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 七 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 月 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 尖 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 子 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 生 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 联 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 考 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 物 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 理 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 第 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 页 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 共 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 页 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 分 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 如 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 图 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 所 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 示 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 倾 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 角 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 为 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+./Part2UnChoice.tex:20: Missing $ inserted.
+<inserted text> 
+                $
+l.20 ...TOP00$七月尖子生联考物理第5页共6页$18.15$分)如图所示,倾角为$37^
+                                                  °$的斜面体固定在水平面上,斜面上$A、B$两个位置...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+./Part2UnChoice.tex:20: Double subscript.
+l.20 ...为$0.5kg$的物体由静止从A处拉到B处.所用时间为$1s,$第$"m"g×_"_
+                                                  0ⅲ$在段时间二场上$A+,$物是实验到B从$_"$...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+Missing character: There is no ⅲ in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+./Part2UnChoice.tex:20: Missing $ inserted.
+<inserted text> 
+                $
+l.20 ...s,$第$"m"g×_"_0ⅲ$在段时间二场上$A+,$物是实验到B从$_"$时上_
+                                                  重石眼至不分物体运动到B处时速度刚好减为零.已知$s...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no 重 in font [STIX2Math.otf]/OT:script=math;language=dflt;+ssty=0;!
+Missing character: There is no 重 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 石 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 眼 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 至 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 不 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 分 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 物 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 体 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 运 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 动 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 到 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 处 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 时 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 速 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 度 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 刚 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 好 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 减 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 为 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 零 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 已 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 知 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 不 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 计 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 物 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 体 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 大 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 小 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 重 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 力 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 区 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 段 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 器 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 二 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 常 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 有 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 因 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 数 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 物 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 体 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 与 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 斜 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 面 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 间 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 动 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 摩 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 擦 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 因 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 数 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 物 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 体 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 第 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 二 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 次 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 从 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 运 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 动 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 到 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 过 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 程 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 水 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 平 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 力 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 的 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 作 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 用 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 时 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 间 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+./Part2UnChoice.tex:22: Missing $ inserted.
+<inserted text> 
+                $
+l.22 \begin{center}
+                   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./Part2UnChoice.tex:22: Missing } inserted.
+<inserted text> 
+                }
+l.22 \begin{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./Part2UnChoice.tex:22: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.22 \begin{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no 结 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 果 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 可 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 保 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 留 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 根 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no 式 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+
+Overfull \hbox (154.584pt too wide) in paragraph at lines 19--22
+\TU/SongtiSC(1)/m/n/10 上$[][][][][][][][][][][][][][][][][][][][][][][][]$\TU/STIX2Text-Regular.otf(0)/m/sl/10 sin37=0.6,cos37=0.8,$[][][][][][][] [][][][][][][]$0”$[][][][][]$, (1)$[][][][][][][][][][][][][][]$2)$[][][][][][][][][][][][][][] []
+ []
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 22.
+Overfull \hbox (1.59528pt too wide) in paragraph at lines 19--22
+[][][][][][][][][]$\TU/STIX2Text-Regular.otf(0)/m/sl/10 .($[][][][][][][][][][][][][]$2020$[]$TOP00$[][][][][][][][][][][][][][][]$18.15$[][][][][][][] [][][]$37$[]$ \TU/SongtiSC(1)/m/n/10 的 斜 面
+ []
 
 
-LaTeX Font Warning: Font shape `TU/STIX2Text-Regular.otf(1)/b/n' undefined
-(Font)              using `TU/STIX2Text-Regular.otf(1)/m/n' instead on input line 36.
-
-) (./Part3Answer.tex
-
-LaTeX Font Warning: Command \small invalid in math mode on input line 12.
+Overfull \hbox (90.46764pt too wide) in paragraph at lines 19--22
+\TU/SongtiSC(1)/m/n/10 场 上 $[][][]$ 物 是 实 验 到 \TU/STIX2Text-Regular.otf(0)/m/sl/10 B \TU/SongtiSC(1)/m/n/10 从 $[]$ 时 上$[][][][][][][][][][][][][][][][][][][][][][][][]$\TU/STIX2Text-Regular.otf(0)/m/sl/10 sin37=0.6,cos37=0.8,$[][][][][][][] [][][][][][][]$0”$[][][][][]$,
+ []
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 12.
+LaTeX Warning: File `img/image18.jpeg' not found on input line 23.
 
-File: img/image1.jpeg Graphic file (type bmp)
-<img/image1.jpeg>
-[5]) [6] (./main.aux)
+./Part2UnChoice.tex:23: Unable to load picture or PDF file 'img/image18.jpeg'.
+<to be read again> 
+                   }
+l.23 \includegraphics[]{img/image18.jpeg}
+                                         
+The requested image couldn't be read because
+it was not a recognized image format.
+
+File: img/image18.jpeg Graphic file (type bmp)
+<img/image18.jpeg>
+
+./Part2UnChoice.tex:24: LaTeX Error: \begin{questions} on input line 25 ended by \end{center}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \end{center}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+
+/Users/tylor/GTexam/main.tex:27: LaTeX Error: \begin{groups} on input line 15 ended by \end{questions}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \end{questions}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+/Users/tylor/GTexam/main.tex:31: LaTeX Error: \begin{document} ended by \end{groups}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 \end{groups}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+/Users/tylor/GTexam/main.tex:31: Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.31 \end{groups}
+                 
+Things are pretty mixed up, but I think the worst is over.
+
+[6] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 14915 strings out of 479418
- 313496 string characters out of 5884586
- 876186 words of memory out of 5000000
- 32194 multiletter control sequences out of 15000+600000
- 535793 words of font info for 81 fonts, out of 8000000 for 9000
+ 14921 strings out of 479418
+ 311148 string characters out of 5884586
+ 874186 words of memory out of 5000000
+ 32178 multiletter control sequences out of 15000+600000
+ 535769 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,11n,116p,853b,659s stack positions out of 5000i,500n,10000p,200000b,80000s
 
