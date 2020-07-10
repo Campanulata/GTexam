@@ -35,10 +35,10 @@ def latex(allStr):
 
 document = docx.Document('/Users/tylor/Desktop/1.docx') 
 par = document.paragraphs
+imgCount=0
 for i in par:
-    i.text=i.text.replace(r'__','')
-    i.text=i.text.replace('μ',r'\mu')
-    for j in ['\key{}','。','、','( 1 )','( 2 )','( 3 )','( 4 )']:
+    t=i.text.count('imgLaTeX')
+    for j in ['\key{}','。','、',',','(1)','(2)','(3)','(4)','( 1 )','( 2 )','( 3 )','( 4 )',':','(i)','(ii)','(',')',']']:
         i.text=i.text.replace(j,'答案'+j+'答案')
     
 
@@ -63,35 +63,32 @@ for i in range(len(par)):#清空空行
         for j in range(t,len(par)):
             par[j-diff]=par[j]
 # 手动配置信息
-listWithImg=[1,3,4,7,9,10,11,12,13,14]
+listWithImg=[]
 maxNum = 14
 choiceNum = 8
 #
 dictABCD = {'A': '', 'B': '', 'C': '','D':''}
-for item in ['A','B','C','D']:
-    dictABCD[item]=item+' .'#docx中选项格式
+for item in ['A','B','C','D']:#docx中选项格式
+    dictABCD[item]=item+' .'
 #
 listQuestion = [0]
 listABCD = [0]
-
-
-
-for n in range(1, maxNum + 1):  # 当前为第n题，得到题行号
+# 当前为第n题，得到题行号
+for n in range(1, maxNum + 1):  
     for i in range(listQuestion[n - 1], len(par)):
         no = str(n) + ' .'
         if par[i].text.find(no) >= 0:
             listQuestion.append(i)
             break
 listQuestion.append(len(par)-1)
-for n in range(1, choiceNum + 1):  # 当前为第n题，得到A选项行号
+# 当前为第n题，得到A选项行号
+for n in range(1, choiceNum + 1):  
     for i in range(listQuestion[n + 1], listQuestion[n], -1):
         if par[i].text.find(dictABCD['A']) >= 0:
             listABCD.append(i)
             break
-
 print(listABCD)
 print(listQuestion)
-
 # 选择题
 choiceAll = ''
 imgNo=1
@@ -154,7 +151,7 @@ unChoiceAll=unChoiceAll.replace(r'$$','')
 
 
 def latexQuad(strAll):
-    for i in [r'\times',r'\pi',r'\Delta']:
+    for i in [r'\times',r'\pi',r'\Delta',r'\rightarrow']:
         strAll=strAll.replace(i,i+' ')
     return strAll
 
@@ -165,18 +162,16 @@ unChoiceAll=unChoiceAll.replace(' ','')
 choiceAll=latexQuad(choiceAll)
 unChoiceAll=latexQuad(unChoiceAll)
 unChoiceAll=unChoiceAll.replace(r'\question[6]',r'\question[6] ')
-#
+#中文保护
+def delHeadFoot(strAll,key):
+    return strAll.replace('答案'+key+'答案',key)
+#中文保护 替换
+for i in ['。','、',',','(1)','(2)','(3)','(4)',':','(i)','(ii)','(',')',']']:
+    choiceAll=delHeadFoot(choiceAll,i)
+    unChoiceAll=delHeadFoot(unChoiceAll,i)
 choiceAll=choiceAll.replace(r'答案$\key{}$答案',r'\key{}')
 unChoiceAll=unChoiceAll.replace(r'答案$\key{}$答案',r'\key{}')
-choiceAll=choiceAll.replace(r'答案。答案',r'。')
-unChoiceAll=unChoiceAll.replace(r'答案。答案',r'。')
-choiceAll=choiceAll.replace(r'答案、答案',r'、')
-unChoiceAll=unChoiceAll.replace(r'答案、答案',r'、')
-unChoiceAll=unChoiceAll.replace(r'答案(1)答案',r'(1)')
-unChoiceAll=unChoiceAll.replace(r'答案(2)答案',r'(2)')
-unChoiceAll=unChoiceAll.replace(r'答案(3)答案',r'(3)')
-unChoiceAll=unChoiceAll.replace(r'答案(4)答案',r'(4)')
-#
+#sub
 dictSub={'1':'','2':'','3':'','4':'','5':'','6':'','7':''}
 for i in dictSub:#生产sub标题
     dictSub[i]='('+i+')'

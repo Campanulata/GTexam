@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  10 JUL 2020 18:49
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  10 JUL 2020 19:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -930,26 +930,7 @@ Package fontspec Info: Font family 'KaitiSC(0)' created for font 'Kaiti SC'
 (fontspec)             SC/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 1.
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 1.
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(2)/m/n' will be
-(Font)              scaled to size 5.50058pt on input line 1.
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 1.
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 1.
-LaTeX Font Info:    Font shape `TU/STIX2Math.otf(3)/m/n' will be
-(Font)              scaled to size 5.4994pt on input line 1.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -959,10 +940,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-File: img/image1.png Graphic file (type bmp)
-<img/image1.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
@@ -970,7 +954,7 @@ File: qrcode.png Graphic file (type bmp)
 <qrcode.png>
 
 LaTeX Font Warning: Font shape `TU/STIX2Text-Regular.otf(0)/m/sl' undefined
-(Font)              using `TU/STIX2Text-Regular.otf(0)/m/n' instead on input line 28.
+(Font)              using `TU/STIX2Text-Regular.otf(0)/m/n' instead on input line 34.
 
 
 Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
@@ -981,95 +965,53 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 ]
-File: img/image2.png Graphic file (type bmp)
-<img/image2.png>
-File: img/image3.png Graphic file (type bmp)
-<img/image3.png>
-File: img/image4.png Graphic file (type bmp)
-<img/image4.png>
-File: img/image5.png Graphic file (type bmp)
-<img/image5.png>
-File: img/image6.png Graphic file (type bmp)
-<img/image6.png>
-
-Overfull \hbox (1.24725pt too wide) in paragraph at lines 33--37
-[] [] [] [] 
- []
-
-File: img/image7.png Graphic file (type bmp)
-<img/image7.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
-File: qrcode.png Graphic file (type bmp)
-<qrcode.png>
-[2]
-File: img/image8.png Graphic file (type bmp)
-<img/image8.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-File: img/image9.png Graphic file (type bmp)
-<img/image9.png>
+Missing character: There is no ∠ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-File: qrcode.png Graphic file (type bmp)
-<qrcode.png>
-[3]) (./Part2UnChoice.tex
-Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
-Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
-File: img/image10.png Graphic file (type bmp)
-<img/image10.png>
-File: img/image11.png Graphic file (type bmp)
-<img/image11.png>
-File: qrcode.png Graphic file (type bmp)
-<qrcode.png>
- [4]
-File: img/image12.png Graphic file (type bmp)
-<img/image12.png>
+) (./Part2UnChoice.tex
 Missing character: There is no ﹐ in font [STIX2Math.otf]/OT:script=math;language=dflt;!
 File: qrcode.png Graphic file (type bmp)
 <qrcode.png>
- [5]
-File: img/image13.png Graphic file (type bmp)
-<img/image13.png>
+ [2]
+Missing character: There is no ， in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no ◦ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ， in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+Missing character: There is no ⅱ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+Missing character: There is no ， in font [STIX2Math.otf]/OT:script=math;language=dflt;!
 File: qrcode.png Graphic file (type bmp)
 <qrcode.png>
- [6]
-File: img/image14.png Graphic file (type bmp)
-<img/image14.png>
+ [3])
 File: qrcode.png Graphic file (type bmp)
 <qrcode.png>
- [7]
-File: img/image15.png Graphic file (type bmp)
-<img/image15.png>
-)
-File: qrcode.png Graphic file (type bmp)
-<qrcode.png>
- [8] (./main.aux)
+ [4] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24755 strings out of 479418
- 528714 string characters out of 5884586
- 890986 words of memory out of 5000000
- 41819 multiletter control sequences out of 15000+600000
+ 24697 strings out of 479418
+ 529360 string characters out of 5884586
+ 896986 words of memory out of 5000000
+ 41777 multiletter control sequences out of 15000+600000
  535769 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,12n,116p,853b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,13n,116p,853b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (8 pages).
+Output written on main.pdf (4 pages).
