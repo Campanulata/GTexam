@@ -194,7 +194,7 @@
 \endgroup}
 
 \renewcommand\arraystretch{1.5}
-\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\baselinestretch}{1.45}
 
 %                    ***************************
 %                    **    试题、解答环境定义   **
@@ -235,7 +235,7 @@
 % 定义新增题组命令
 \newcommand{\group}[2]{
 	\if@list
-		\item \heiti{#1} : \heiti  #2 \heiti \normalsize \par
+		\item \heiti{#1} : \heiti  #2 \songti \normalsize \par
 	\else
 		\stepcounter{Group}
 		\par \heiti{\par \chinese{Group} 、#1} \quad \small{\kaishu #2} \songti \normalsize \par

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  10 JUL 2020 14:05
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  10 JUL 2020 14:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -805,12 +805,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
-File: img/image8.png Graphic file (type bmp)
-<img/image8.png>
 File: qrcode.png Graphic file (type bmp)
 <qrcode.png>
 [2]
+File: img/image8.png Graphic file (type bmp)
+<img/image8.png>
+
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
@@ -829,8 +829,6 @@ Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;langua
 Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
 File: img/image10.png Graphic file (type bmp)
 <img/image10.png>
-Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
-Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
 File: img/image11.png Graphic file (type bmp)
 <img/image11.png>
 File: qrcode.png Graphic file (type bmp)
@@ -838,39 +836,37 @@ File: qrcode.png Graphic file (type bmp)
  [4]
 File: img/image12.png Graphic file (type bmp)
 <img/image12.png>
-Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
 Missing character: There is no ﹐ in font [STIX2Math.otf]/OT:script=math;language=dflt;!
 File: qrcode.png Graphic file (type bmp)
 <qrcode.png>
  [5]
 File: img/image13.png Graphic file (type bmp)
 <img/image13.png>
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
+ [6]
 File: img/image14.png Graphic file (type bmp)
 <img/image14.png>
 File: qrcode.png Graphic file (type bmp)
 <qrcode.png>
- [6]
-Missing character: There is no ∘ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
-Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
-Missing character: There is no 、 in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+ [7]
 File: img/image15.png Graphic file (type bmp)
 <img/image15.png>
 )
 File: qrcode.png Graphic file (type bmp)
 <qrcode.png>
- [7] (./main.aux)
+ [8] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 14972 strings out of 479418
- 315162 string characters out of 5884586
- 868186 words of memory out of 5000000
- 32247 multiletter control sequences out of 15000+600000
- 535785 words of font info for 80 fonts, out of 8000000 for 9000
+ 14957 strings out of 479418
+ 314323 string characters out of 5884586
+ 870186 words of memory out of 5000000
+ 32234 multiletter control sequences out of 15000+600000
+ 535769 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,12n,116p,853b,721s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,116p,853b,657s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (7 pages).
+Output written on main.pdf (8 pages).
