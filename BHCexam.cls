@@ -156,8 +156,7 @@
 \renewcommand{\date}[1]{\gdef\@date{#1}}
 
 \renewcommand\maketitle{\begingroup
-	\renewcommand{\baselinestretch}{2}
-	\newpage
+	\renewcommand{\baselinestretch}{1}
 	\begin{center}
 		\heiti \Large
 		\@title \par
@@ -236,7 +235,7 @@
 % 定义新增题组命令
 \newcommand{\group}[2]{
 	\if@list
-		\item \heiti{#1} \quad \kaishu \small #2 \songti \normalsize \par
+		\item \heiti{#1} : \heiti  #2 \heiti \normalsize \par
 	\else
 		\stepcounter{Group}
 		\par \heiti{\par \chinese{Group} 、#1} \quad \small{\kaishu #2} \songti \normalsize \par

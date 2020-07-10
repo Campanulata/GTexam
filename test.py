@@ -61,7 +61,7 @@ for i in range(len(par)):#清空空行
         for j in range(t,len(par)):
             par[j-diff]=par[j]
 # 手动配置信息
-listWithImg=[3,4,5,7,8,9,9,10,12,13,14]
+listWithImg=[3,4,4,4,4,4,5,7,8,9,9,10,12,13,14]
 maxNum = 14
 choiceNum = 8
 #
