@@ -7,27 +7,27 @@ from docx.shared import Pt
 from docx.shared import RGBColor
 from docx.shared import Inches
 import re
-
+def delQuad(allStr):
+    return allStr.replace(' ','')
 def latex(allStr):
-    allStr=allStr.replace(" ",'')
     result=re.findall(r'[^\u4E00-\u9FA5]+',allStr)
     result=list(set(result))
+    for j in range(len(result)):
+        if len(result[j])<3:
+            result[j]='willDel'
+        if '\n' in result[j]:
+            result[j]='willDel'
+    while 'willDel' in result:
+        result.remove('willDel')
     for m in range(0,len(result)-1):#从大到小排序
         for p in range(0,len(result)-1-m):
             if len(result[p])<len(result[p+1]):
                 result[p],result[p+1]=result[p+1],result[p]
-    for j in range(len(result)):
-        if len(result[j])<3:
-            result[j]='dsadasdas'
-        if '\n' in result[j]:
-            result[j]='dsadasdas'
-    for j in ['(1)','(2)']:#移除不需要加$的字符
+    for j in ['(1)','(2)','(a)','(b)']:#移除不需要加$的字符
         if j in result:
             result.remove(j)
     for j in range(0,len(result)):#替换 加$
-        resultT=result[j].replace('x','x ')
-        resultT=result[j].replace('v','v ')
-        resultT=result[j].replace('a','a ')
+        resultT=' '.join(re.compile('.{1,1}').findall(result[j]))
         allStr=allStr.replace(result[j],'$'+resultT+'$')
     # tex标准化
     allStr=allStr.replace(r'\question[6]','\question[6] ')
@@ -61,9 +61,9 @@ for i in range(len(par)):#清空空行
         for j in range(t,len(par)):
             par[j-diff]=par[j]
 # 手动配置信息
-listWithImg=[1,3,4,6,7,9,11,12,13,18]
-maxNum = 18
-choiceNum = 12
+listWithImg=[3,4,5,7,8,9,9,10,12,13,14]
+maxNum = 14
+choiceNum = 8
 #
 dictABCD = {'A': '', 'B': '', 'C': '','D':''}
 for item in ['A','B','C','D']:
@@ -92,36 +92,34 @@ print(listQuestion)
 
 # 选择题
 choiceAll = ''
+imgNo=1
 for i in range(1, choiceNum + 1):  # 生成选择题
     # 题干
     choice1 = ''
     for j in range(listQuestion[i], listABCD[i]):
         par[j].text.replace(' ','')
         choice1 += par[j].text.lstrip()
+    choice1=choice1[3:]
+    choice1=delQuad(choice1)
     choice1=latex(choice1)
     choice1=r'\question[6] '+choice1
-    if i in listWithImg:
-        choice1+='\n'+r'\begin{center}'+'\n'+r'\includegraphics[]{img/image'+str(listWithImg[0])+r'.jpeg}'+'\n'+r'\end{center}'+'\n'
+    while i in listWithImg:
+        choice1+='\n'+r'\begin{center}'+'\n'+r'\includegraphics[]{img/image'+str(imgNo)+r'.png}'+'\n'+r'\end{center}'+'\n'
+        imgNo+=1
         listWithImg.remove(i)
     # 选项
     choice2 = ''  
     choiceA = listABCD[i]
-    choiceAD = listQuestion[i + 1] - listABCD[i]
-    if choiceAD == 4:
-        choice2 = r'\fourchoices{' + latex(par[choiceA].text.lstrip()) + r'}{' + latex(par[choiceA + 1].text.lstrip()) + r'}{' + latex(par[choiceA + 2].text.lstrip()) + r'}{' + latex(par[choiceA + 3].text.lstrip()) + r'}'
-    if choiceAD==2:
-        ab=par[choiceA].text
-        cd=par[choiceA+1].text
-        a=ab.split(dictABCD['B'],1)[0].lstrip()
-        b=ab.split(dictABCD['B'],1)[1].lstrip()
-        c=cd.split(dictABCD['C'],1)[0].lstrip()
-        d=cd.split(dictABCD['C'],1)[1].lstrip()
-        # 标准化ABCD选项
-        a=a.replace(dictABCD['A'],'')
-        b=b.replace(dictABCD['B'],'')
-        c=c.replace(dictABCD['C'],'')
-        d=d.replace(dictABCD['D'],'')
-        choice2 = r'\fourchoices{' + latex(a) + r'}{' + latex(b) + r'}{' + latex(c) + r'}{' + latex(d)+ r'}'
+    a=par[choiceA].text.lstrip().replace(dictABCD['A'],'')[1:]
+    b=par[choiceA+1].text.lstrip().replace(dictABCD['B'],'')[1:]
+    c=par[choiceA+2].text.lstrip().replace(dictABCD['C'],'')[1:]
+    d=par[choiceA+3].text.lstrip().replace(dictABCD['D'],'')[1:]
+    a=delQuad(a)
+    b=delQuad(b)
+    c=delQuad(c)
+    d=delQuad(d)
+    choice2 = r'\fourchoices{' + latex(a) + r'}{' + latex(b) + r'}{' + latex(c) + r'}{' + latex(d) + r'}'
+
 
     #尾部
     choice3 = r'\begin{solution}{4cm}' + '\n'+'\n' + r'\end{solution}' + '\n' + '\n'+ '\n'+ '\n'
@@ -137,17 +135,19 @@ for i in range(choiceNum + 1, maxNum + 1):  # 生成选择题
     for j in range(listQuestion[i], listQuestion[i+1]):
         choice1 += par[j].text.lstrip()
     # sub
-    choice1=choice1.replace(' ','')
-    dictSub={'1':'','2':'','3':'','4':''}
-    for j in dictSub:
+    choice1=choice1.replace(' ','')[3:]
+    dictSub={'1':'','2':'','3':'','4':'','5':'','6':'','7':''}
+    for j in dictSub:#生产sub标题
         dictSub[j]='('+j+')'
-    for j in dictSub:
-        choice1=choice1.replace(dictSub[j],'\n'+dictSub[j])
+    for j in dictSub:#sub加\n
+        choice1=choice1.replace(dictSub[j],'\n\n'+dictSub[j])
     #
+    choice1=delQuad(choice1)
     choice1=latex(choice1)
     choice1 = r'\question[6]'+choice1
-    if i in listWithImg:
-        choice1+='\n'+r'\begin{center}'+'\n'+r'\includegraphics[]{img/image'+str(listWithImg[0])+r'.jpeg}'+'\n'+r'\end{center}'+'\n'
+    while i in listWithImg:
+        choice1+='\n'+r'\begin{center}'+'\n'+r'\includegraphics[]{img/image'+str(imgNo)+r'.png}'+'\n'+r'\end{center}'+'\n'
+        imgNo+=1
         listWithImg.remove(i)
     unChoiceAll+=choice1+'\n'
 # 去除空格
@@ -155,11 +155,17 @@ for i in range(choiceNum + 1, maxNum + 1):  # 生成选择题
 unChoiceAll=unChoiceAll.replace(r'$$','')
 
 
-
-
+def latexQuad(strAll):
+    for i in [r'\times',r'\pi',r'\Delta']:
+        strAll=strAll.replace(i,i+' ')
+    return strAll
 
 choiceAll=choiceAll.replace(' ','')
+for i in dictABCD:
+    choiceAll=choiceAll.replace(dictABCD[i],'')
 unChoiceAll=unChoiceAll.replace(' ','')
+choiceAll=latexQuad(choiceAll)
+unChoiceAll=latexQuad(unChoiceAll)
 unChoiceAll=unChoiceAll.replace(r'\question[6]',r'\question[6] ')
 with open("Part1Choice.tex", "w") as f:
     f.write(choiceAll)
