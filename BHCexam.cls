@@ -1,7 +1,8 @@
 % BHCexam.cls
 %
 % A LaTeX2e document class for preparing exams.
-
+\newcommand*{\circled}[1]{\lower.7ex\hbox{\tikz\draw (0pt, 0pt)%
+    circle (.5em) node {\makebox[1em][c]{\small #1}};}}
 %% BHCexam.cls
 %% Copyright (c) 2011-2020 BAO HONG CHANG
 %
@@ -99,6 +100,7 @@
 \RequirePackage{bbding} % 图案
 \RequirePackage{romannum} % 罗马数字
 \RequirePackage{enumitem}
+\RequirePackage{tikz}
 
 
 

@@ -15,15 +15,15 @@ def latex(allStr):
     for j in range(len(result)):
         if len(result[j])<3:
             result[j]='willDel'
-        if '\n' in result[j]:
-            result[j]='willDel'
+        # if '\n' in result[j]:
+        #     result[j]='willDel'
     while 'willDel' in result:
         result.remove('willDel')
     for m in range(0,len(result)-1):#从大到小排序
         for p in range(0,len(result)-1-m):
             if len(result[p])<len(result[p+1]):
                 result[p],result[p+1]=result[p+1],result[p]
-    for j in ['(1)','(2)','(a)','(b)']:#移除不需要加$的字符
+    for j in ['(1)','(2)','(3)','(4)','(a)','(b)']:#移除不需要加$的字符
         if j in result:
             result.remove(j)
     for j in range(0,len(result)):#替换 加$
@@ -38,6 +38,8 @@ par = document.paragraphs
 for i in par:
     i.text=i.text.replace(r'__','')
     i.text=i.text.replace('μ',r'\mu')
+    for j in ['\key{}','。','、','( 1 )','( 2 )','( 3 )','( 4 )']:
+        i.text=i.text.replace(j,'答案'+j+'答案')
     
 
 # 导出图片到img文件夹
@@ -61,7 +63,7 @@ for i in range(len(par)):#清空空行
         for j in range(t,len(par)):
             par[j-diff]=par[j]
 # 手动配置信息
-listWithImg=[3,4,4,4,4,4,5,7,8,9,9,10,12,13,14]
+listWithImg=[1,3,4,7,9,10,11,12,13,14]
 maxNum = 14
 choiceNum = 8
 #
@@ -110,10 +112,10 @@ for i in range(1, choiceNum + 1):  # 生成选择题
     # 选项
     choice2 = ''  
     choiceA = listABCD[i]
-    a=par[choiceA].text.lstrip().replace(dictABCD['A'],'')[1:]
-    b=par[choiceA+1].text.lstrip().replace(dictABCD['B'],'')[1:]
-    c=par[choiceA+2].text.lstrip().replace(dictABCD['C'],'')[1:]
-    d=par[choiceA+3].text.lstrip().replace(dictABCD['D'],'')[1:]
+    a=par[choiceA].text.lstrip().replace(dictABCD['A'],'')
+    b=par[choiceA+1].text.lstrip().replace(dictABCD['B'],'')
+    c=par[choiceA+2].text.lstrip().replace(dictABCD['C'],'')
+    d=par[choiceA+3].text.lstrip().replace(dictABCD['D'],'')
     a=delQuad(a)
     b=delQuad(b)
     c=delQuad(c)
@@ -135,12 +137,8 @@ for i in range(choiceNum + 1, maxNum + 1):  # 生成选择题
     for j in range(listQuestion[i], listQuestion[i+1]):
         choice1 += par[j].text.lstrip()
     # sub
-    choice1=choice1.replace(' ','')[3:]
-    dictSub={'1':'','2':'','3':'','4':'','5':'','6':'','7':''}
-    for j in dictSub:#生产sub标题
-        dictSub[j]='('+j+')'
-    for j in dictSub:#sub加\n
-        choice1=choice1.replace(dictSub[j],'\n\n'+dictSub[j])
+    choice1=choice1.replace(' ','').split('.',1)[1]
+
     #
     choice1=delQuad(choice1)
     choice1=latex(choice1)
@@ -167,6 +165,23 @@ unChoiceAll=unChoiceAll.replace(' ','')
 choiceAll=latexQuad(choiceAll)
 unChoiceAll=latexQuad(unChoiceAll)
 unChoiceAll=unChoiceAll.replace(r'\question[6]',r'\question[6] ')
+#
+choiceAll=choiceAll.replace(r'答案$\key{}$答案',r'\key{}')
+unChoiceAll=unChoiceAll.replace(r'答案$\key{}$答案',r'\key{}')
+choiceAll=choiceAll.replace(r'答案。答案',r'。')
+unChoiceAll=unChoiceAll.replace(r'答案。答案',r'。')
+choiceAll=choiceAll.replace(r'答案、答案',r'、')
+unChoiceAll=unChoiceAll.replace(r'答案、答案',r'、')
+unChoiceAll=unChoiceAll.replace(r'答案(1)答案',r'(1)')
+unChoiceAll=unChoiceAll.replace(r'答案(2)答案',r'(2)')
+unChoiceAll=unChoiceAll.replace(r'答案(3)答案',r'(3)')
+unChoiceAll=unChoiceAll.replace(r'答案(4)答案',r'(4)')
+#
+dictSub={'1':'','2':'','3':'','4':'','5':'','6':'','7':''}
+for i in dictSub:#生产sub标题
+    dictSub[i]='('+i+')'
+for i in dictSub:#sub加\n
+    unChoiceAll=unChoiceAll.replace(dictSub[i],'\n\n'+dictSub[i])
 with open("Part1Choice.tex", "w") as f:
     f.write(choiceAll)
 with open("Part2UnChoice.tex", "w") as f:
