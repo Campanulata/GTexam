@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  10 JUL 2020 19:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.6.5)  11 JUL 2020 14:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -930,23 +930,17 @@ Package fontspec Info: Font family 'KaitiSC(0)' created for font 'Kaiti SC'
 (fontspec)             SC/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
+File: img/image1.png Graphic file (type bmp)
+<img/image1.png>
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd)
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
+File: img/image2.png Graphic file (type bmp)
+<img/image2.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
@@ -954,7 +948,7 @@ File: qrcode.png Graphic file (type bmp)
 <qrcode.png>
 
 LaTeX Font Warning: Font shape `TU/STIX2Text-Regular.otf(0)/m/sl' undefined
-(Font)              using `TU/STIX2Text-Regular.otf(0)/m/n' instead on input line 34.
+(Font)              using `TU/STIX2Text-Regular.otf(0)/m/n' instead on input line 18.
 
 
 Package Fancyhdr Warning: \headheight is too small (56.9055pt): 
@@ -965,6 +959,20 @@ This may cause the page layout to be inconsistent, however.
 [1
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+File: img/image3.png Graphic file (type bmp)
+<img/image3.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+File: img/image4.png Graphic file (type bmp)
+<img/image4.png>
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
@@ -974,44 +982,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
+[2]
+File: img/image5.png Graphic file (type bmp)
+<img/image5.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-Missing character: There is no ∠ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
+File: img/image6.png Graphic file (type bmp)
+<img/image6.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
-) (./Part2UnChoice.tex
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
+[3]) (./Part2UnChoice.tex
+File: img/image7.png Graphic file (type bmp)
+<img/image7.png>
 Missing character: There is no ﹐ in font [STIX2Math.otf]/OT:script=math;language=dflt;!
-File: qrcode.png Graphic file (type bmp)
-<qrcode.png>
- [2]
-Missing character: There is no ， in font [STIX2Math.otf]/OT:script=math;language=dflt;!
+File: img/image8.png Graphic file (type bmp)
+<img/image8.png>
 Missing character: There is no ◦ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [STIX2Math.otf]/OT:script=math;language=dflt;!
-Missing character: There is no ⅱ in font [STIX2Text-Regular.otf]/OT:script=latn;language=dflt;mapping=tex-text;!
-Missing character: There is no ， in font [STIX2Math.otf]/OT:script=math;language=dflt;!
 File: qrcode.png Graphic file (type bmp)
 <qrcode.png>
- [3])
+ [4]
+File: img/image9.png Graphic file (type bmp)
+<img/image9.png>
 File: qrcode.png Graphic file (type bmp)
 <qrcode.png>
- [4] (./main.aux)
+ [5]
+File: img/image10.png Graphic file (type bmp)
+<img/image10.png>
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
+ [6]
+File: img/image11.png Graphic file (type bmp)
+<img/image11.png>
+File: img/image12.png Graphic file (type bmp)
+<img/image12.png>
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
+ [7]
+File: img/image13.png Graphic file (type bmp)
+<img/image13.png>
+File: img/image14.png Graphic file (type bmp)
+<img/image14.png>
+File: img/image15.png Graphic file (type bmp)
+<img/image15.png>
+File: img/image16.png Graphic file (type bmp)
+<img/image16.png>
+)
+File: qrcode.png Graphic file (type bmp)
+<qrcode.png>
+ [8] (./main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 24697 strings out of 479418
- 529360 string characters out of 5884586
- 896986 words of memory out of 5000000
- 41777 multiletter control sequences out of 15000+600000
- 535769 words of font info for 78 fonts, out of 8000000 for 9000
+ 24799 strings out of 479418
+ 530812 string characters out of 5884586
+ 891970 words of memory out of 5000000
+ 41855 multiletter control sequences out of 15000+600000
+ 535825 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,13n,116p,853b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,116p,853b,616s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (4 pages).
+Output written on main.pdf (8 pages).
