@@ -78,8 +78,8 @@ for i in range(len(par)):#清空空行
             par[j-diff]=par[j]
 # 手动配置信息
 listWithImg=[]
-maxNum = 14
-choiceNum = 8
+maxNum = 18
+choiceNum = 12
 #
 dictABCD = {'A': '', 'B': '', 'C': '','D':''}
 for item in ['A','B','C','D']:#docx中选项格式
@@ -94,7 +94,7 @@ for n in range(1, maxNum + 1):
         if par[i].text.find(no) >= 0:
             listQuestion.append(i)
             break
-listQuestion.append(len(par)-1)
+listQuestion.append(len(par))
 # 当前为第n题，得到A选项行号
 for n in range(1, choiceNum + 1):  
     for i in range(listQuestion[n + 1], listQuestion[n], -1):
@@ -159,7 +159,7 @@ unChoiceAll=unChoiceAll.replace(r'$$','')
 
 
 def latexQuad(strAll):
-    for i in [r'\times',r'\pi',r'\Delta',r'\rightarrow',r'\angle',r'\leqslant']:
+    for i in [r'\times',r'\pi',r'\Delta',r'\rightarrow',r'\angle',r'\leqslant',r'\cdot']:
         strAll=strAll.replace(i,i+' ')
     return strAll
 
