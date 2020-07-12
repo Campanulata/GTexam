@@ -37,6 +37,7 @@ def latex(allStr):
     return allStr
 
 document = docx.Document('/Users/tylor/Desktop/1.docx') 
+print(type(document))
 par = document.paragraphs
 # 导出图片到img文件夹
 imgCount=0
