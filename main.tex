@@ -1,31 +1,31 @@
 \documentclass[list,mac]{BHCexam}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    urlcolor=blue,
+    citecolor=cyan,
+}
 \pagestyle{fancy}
 \fancyfoot[C]{\kaishu \small 第 \thepage 页 共 \pageref{lastpage} 页}
-\fancyhead[L]{\includegraphics[width=2cm]{qrcode.png}}
+
+\fancyhead[L]{\includegraphics[width=2cm]{qrcode.png}\rightline{本试卷由开源项目\href{https://github.com/Campanulata/GTexam}{GTexam}生成}}
+
 \begin{document}
-\textbf{机密\ding{72}启用前} 
-\title{山东省2020 年普通高中学业水平等级考试}
-\subtitle{物理}
+\title{2020年江苏省高考物理试卷}
+\subtitle{物理试题}
 \maketitle
-
-\textbf{注意事项：} 
-\setlength\parindent{2em}
-
-1. 答卷前，考生务必将自己的姓名、考生号等填写在答题卡和试卷指定位置。
-
-2. 回答选择题时，选出每小题答案后，用铅笔把答题卡上对应题目的答案标号涂黑，如需改动，用橡皮擦干净后，再选涂其它答案标号。回答非选择题时，将答案写在答题卡上，写在本试卷上无效。
-
-3. 考试结束后，将本试卷和答题卡一并交回。
 
 \begin{groups}
 
-\group{单项选择题}{本题共 8 小题，每小题 3 分。共 24 分。每小题只有一个选项符合题目要求。}
+\group{单项选择题}{本题共5小题，每小题3分，共计15分。每小题只有一个选项符合题意。}
 
-\begin{questions}[30s]
+\begin{questions}[30]
 \input{Part1Choice.tex}
 \end{questions}
 
-\group{非选择题}{本题共6题，共60分}
+\group{简答题}{本题分必做题（第10$\sim$14题）和选做题（第15$\sim$20题）两部分，共计42分。请将解答填写在答题卡相应的位置。【必做题】}
 
 \begin{questions}[p]
 \input{Part2UnChoice.tex}

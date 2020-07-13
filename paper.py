@@ -1,5 +1,5 @@
+from os import replace
 from os.path import split
-from test import document
 from typing import Pattern
 from docx import Document
 import docx
@@ -19,7 +19,7 @@ class Paper:
     choiceNum = 0
     listQuestion = [0]
     listABCD = [0]
-    dictUnLatexProtect=['\key{}','。','、',',',':','(',')',']','，']
+    dictUnLatexProtect=['\key{}','。','、',',',':','(',')',']','，','（','）']
     dictABCD = {'A': '', 'B': '', 'C': '','D':''}
     dictSub={'1':'','2':'','3':'','4':'','5':'','6':'','7':''}
     dictLatexQuad=[r'\times',r'\pi',r'\Delta',r'\rightarrow',r'\angle',r'\leqslant',r'\cdot',r'\question[6]']
@@ -27,10 +27,10 @@ class Paper:
     dictReplace={   r'∠':r'\angle',
                     r'ⅱ':r'\romannumeral2',
                     r' ':'',
-                    r'i':r'\romannumeral1'}
-    def delQuad(allStr):
+                    r'Ⅰ':r'\uppercase\expandafter{\romannumeral1}'}
+    def delQuad(self,allStr):
         return allStr.replace(' ','')
-    def latex(allStr):
+    def latex(self,allStr):
         result=re.findall(r'[^\u4E00-\u9FA5]+',allStr)
         result=list(set(result))
         for j in range(len(result)):
@@ -58,7 +58,7 @@ class Paper:
         for item in ['A','B','C','D']:#docx中选项格式
             self.dictABCD[item]=item+' .'
         for i in self.dictSub:#生产sub标题
-            self.dictSub[i]='('+i+')'
+            self.dictSub[i]='（'+i+'）'
     def get_list_question(self):
         for n in range(1, self.maxNum + 1):  
             for i in range(self.listQuestion[n - 1], len(self.par)):
@@ -74,8 +74,8 @@ class Paper:
                     self.listABCD.append(i)
                     break
     def image_to_img(self):
-        for rel in document.part._rels:
-            rel = document.part._rels[rel]      #获得资源
+        for rel in self.document.part._rels:
+            rel = self.document.part._rels[rel]      #获得资源
             if "image" not in rel.target_ref:
                 continue
             imgName = re.findall("/(.*)",rel.target_ref)[0]
@@ -93,7 +93,7 @@ class Paper:
         for i in self.par:
             for j in self.dictReplace:
                 i.text=i.text.replace(j,self.dictReplace[j])            
-            for j in dictUnLatexProtect:
+            for j in self.dictUnLatexProtect:
                 i.text=i.text.replace(j,'答案'+j+'答案')
     def irrelevant_information(self):
         for i in range(len(self.par)):#清空非必要信息
@@ -116,18 +116,19 @@ class Paper:
             for j in range(self.listQuestion[i], self.listABCD[i]):
                 self.par[j].text.replace(' ','')
                 choice1 += self.par[j].text.lstrip()
-            choice1=choice1[3:]
+            choice1=choice1[2:]
             choice1=self.delQuad(choice1)
+            choice1=choice1+r'答案\key{}答案'
             choice1=self.latex(choice1)
             choice1=r'\question[6] '+choice1
 
             # 选项
             choice2 = ''  
             choiceA = self.listABCD[i]
-            a=self.par[choiceA].text.lstrip().replace(self.dictABCD['A'],'')
-            b=self.par[choiceA+1].text.lstrip().replace(self.dictABCD['B'],'')
-            c=self.par[choiceA+2].text.lstrip().replace(self.dictABCD['C'],'')
-            d=self.par[choiceA+3].text.lstrip().replace(self.dictABCD['D'],'')
+            a=self.par[choiceA].text.lstrip().replace(self.dictABCD['A'],'')[2:]
+            b=self.par[choiceA+1].text.lstrip().replace(self.dictABCD['B'],'')[2:]
+            c=self.par[choiceA+2].text.lstrip().replace(self.dictABCD['C'],'')[2:]
+            d=self.par[choiceA+3].text.lstrip().replace(self.dictABCD['D'],'')[2:]
             a=self.delQuad(a)
             b=self.delQuad(b)
             c=self.delQuad(c)
@@ -156,22 +157,30 @@ class Paper:
             self.unChoiceAll+=choice1+'\n'
         # 去除空格
 
-        unChoiceAll=unChoiceAll.replace(r'$$','')
+        self.unChoiceAll=self.unChoiceAll.replace(r'$$','')
     def latex_will_work(self):
-        # 去空格
-        self.choiceAll=self.choiceAll.replace(' ','')
-        self.unChoiceAll=self.unChoiceAll.replace(' ','')
-        # 加空格
-        for i in self.dictLatexQuad:
-            self.choiceAll=self.choiceAll.replace(i,i+' ')
-            self.unchoiceAll=self.unchoiceAll.replace(i,i+' ')
+
         # 去ABCD
         # for i in self.dictABCD:
         #     self.choiceAll=self.choiceAll.replace(self.dictABCD[i],'')
+
+        # 去空格
+        self.choiceAll=self.choiceAll.replace(' ','')
+        self.unChoiceAll=self.unChoiceAll.replace(' ','')
+        #
+        self.choiceAll=self.choiceAll.replace(r'\begin{center}',r'\key{}\begin{center}')
+        self.choiceAll=self.choiceAll.replace(r'\end{center}答案$\key{}$答案',r'\end{center}')
+        self.choiceAll=self.choiceAll.replace(r'\end{center}\key{}',r'\end{center}')
+        
+        # 加空格
+        for i in self.dictLatexQuad:
+            self.choiceAll=self.choiceAll.replace(i,i+' ')
+            self.unChoiceAll=self.unChoiceAll.replace(i,i+' ')
         # 删除中文保护
+        self.choiceAll=self.choiceAll.replace(r'答案$\key{}$答案',r'\key{}')
         for i in self.dictUnLatexProtect:
             self.choiceAll=self.choiceAll.replace('答案'+i+'答案',i)
-            self.unchoiceAll=self.unchoiceAll.replace('答案'+i+'答案',i)
+            self.unChoiceAll=self.unChoiceAll.replace('答案'+i+'答案',i)
         # sub加回车
         for i in self.dictSub:#sub加\n
             self.unChoiceAll=self.unChoiceAll.replace(self.dictSub[i],'\n\n'+self.dictSub[i])
@@ -180,7 +189,3 @@ class Paper:
             f.write(self.choiceAll)
         with open("Part2UnChoice.tex", "w") as f:
             f.write(self.unChoiceAll)
-a=Paper()
-a.document=docx.Document('/Users/tylor/Desktop/1.docx')
-a.par = a.document.paragraphs
-print(1)
